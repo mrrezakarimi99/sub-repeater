@@ -1,0 +1,25 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "next/core-web-vitals",
+    "prettier",
+    "airbnb-base"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+    "no-console": 0,
+    "no-unused-vars": [
+      1,
+      {
+        "ignoreRestSiblings": false
+      }
+    ],
+    "prettier/prettier": "error"
+  }
+}
